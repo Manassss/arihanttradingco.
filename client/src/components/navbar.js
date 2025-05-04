@@ -23,7 +23,7 @@ const navItems = [
   { label_en: 'About', label_mr: 'आमच्याबद्दल', to: '/about' },
   { label_en: 'Contact', label_mr: 'संपर्क', to: '/contact' },
   // { label_en: 'Admin', label_mr: 'प्रशासक', to: '/admin' },
-  // { label_en: 'Login',   label_mr: 'लॉगिन',to: '/login'  },
+  { label_en: 'Login',   label_mr: 'लॉगिन',to: '/login'  },
 ];
 
 export default function Navbar({ lang, setLang }) {
