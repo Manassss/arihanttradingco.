@@ -9,7 +9,7 @@ const app = express();
 
 // Set up CORS to allow requests from your frontend
 app.use(cors({
-  origin: 'http://localhost:3000'  // Update this to match your frontend URL
+  origin: process.env.FRONTEND_URL || 'http://localhost:3000'  // Update this dynamically if necessary
 }));
 
 // Middleware to parse JSON requests
