@@ -9,7 +9,7 @@ const app = express();
 
 // Set up CORS to allow requests from your frontend
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000'  // Update this dynamically if necessary
+  origin: 'https://arihanttradingco.vercel.app' // or '*' for all domains
 }));
 
 // Middleware to parse JSON requests

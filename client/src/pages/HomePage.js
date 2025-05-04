@@ -14,7 +14,7 @@ export default function HomePage() {
   useEffect(() => {
     setLoading(true);
     setError(null);
-    axios.get(`${process.env.REACT_APP_API_URL}/grains`) 
+    axios.get(`https://arihanttradingco.onrender.com/api/grains`) 
       .then(res => {
         setGrains(res.data);
         setLoading(false);
